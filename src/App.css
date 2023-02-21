@@ -1,0 +1,53 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  text-align: center;
+}
+
+.container span {
+  /* container class ının içindeki span TAG larına erişim */
+  font-size: 5rem;
+}
+
+.container small {
+  /* container class ının içindeki small TAG larına erişim */
+  display: block;
+  font-weight: bold;
+  text-decoration: underline;
+  margin-top: 1rem;
+}
+
+.decrease {
+  font-size: 5rem;
+  /* border: none; */
+  width: 100px;
+  /* background-color: #fff; */
+  background-color: #d10000a7;
+  cursor: pointer;
+  padding: 0;
+}
+
+.increase {
+  font-size: 5rem;
+  /* border: none; */
+  width: 100px;
+  /* background-color: #fff; */
+  background-color: #23d100a2;
+  cursor: pointer;
+  padding: 0;
+}
+/* ='decrease'  onClick={decrease}>-</button>
+        <span> {count} </span>
+        <button className='increase' onClick={increase}>+ */
+#txtbox {
+  /* container class ının içindeki span TAG larına erişim */
+  font-size: 18pt;
+  height: 42px;
+  width: 300px;
+  text-align: center;
+}
